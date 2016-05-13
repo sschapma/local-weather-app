@@ -1,0 +1,81 @@
+body {
+  font-family: "Catamaran", Monaco, monospace;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.container {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 8px;
+}
+
+.weatherIcon {
+  font-size: 15em;
+  margin-bottom: -30px;
+}
+
+.location {
+  font-size: 1.7em;
+}
+
+.weatherDescr {
+  font-size: 1.5em;
+  padding-top: 16px;
+  margin-top: 0px;
+}
+
+.temperatureDisplay {
+  display: inline-flex;
+  font-size: 6em;
+  margin: -100px 0px -60px 0px;
+  padding: 0px;
+}
+
+.units {
+  cursor: pointer;
+  display: inline-flex;
+  font-size: .5em;
+  margin-top: 44px;
+}
+
+a,
+a:hover,
+a:visited,
+a:link {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.searchbox {
+  outline-style: none;
+  background: inherit;
+  height: 40px;
+  margin-top:5px;
+  border: solid white 5px;
+  color: inherit;
+  font-weight:700;
+  border-radius: 20px;
+  width: 250px;
+  text-align: left;
+  padding-left:10px;
+}
+
+.go {
+  border:1px solid white;
+  height:33px;
+  border-radius:50%;
+  background:white;
+  font-weight:700;
+  font-size:14px;
+  position:absolute;
+  margin-left:-34px;
+  margin-top:9px;
+}
+
+footer {
+  letter-spacing: 2px;
+  text-align:center;
+}

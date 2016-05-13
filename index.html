@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Local Weather App</title>
+    <link href='https://fonts.googleapis.com/css?family=Catamaran:500,700,900' rel='stylesheet' type='text/css'>
+    
+    
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="container">
+
+  <!-- displays weather icon -->  
+  <div class="weatherIcon"><i class="wi wi-na"></i></div>
+  
+  <!-- displays temperature and unit --> 
+  <div class="temperatureDisplay">
+    <p class="num"></p>
+    <div class="units">
+      <p class="far">&deg;F</p>
+      <p class="cel">&deg;C</p>
+    </div>
+  </div>
+  
+  <!-- displays description of current weather and city -->
+  <p class="weatherDescr">N/A</p>
+  <p class="location">Location can't be found</p>
+
+  <!-- enables search for weather by city name (by clicking go or pressing enter) -->
+  <input class="searchbox" placeholder="Search by city name"></input>
+  <button class="go" onclick="search()">GO</button>
+  
+</div> <!-- close container -->
+
+<!-- includes footer with link to github page -->
+<hr><footer>
+Created by <a href="http://www.github.com/sschapma" target="_blank">Sam Chapman
+</footer>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
